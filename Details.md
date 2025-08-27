@@ -8,7 +8,7 @@
 
 - Then I want you guys to update the markdown called approvals.md and append your question statement in that.
 
-- For reference as to how to draft the problem statement, and in what format it should be, refer to <a href="https://github.com/Roonil03/while-TLE-25/blob/main/NetworkOfAi/README.md">this example</a>
+- For reference as to how to draft the problem statement, and in what format it should be, refer to <a href="https://github.com/Roonil03/ProjectEulerCodes/tree/main/Problem0008.%20LargestProductInASeries">this example</a>
 > and yes, I want you to tag who made the github question with linking your github... It's good practice.
 
 ## Round 3 Directory:
