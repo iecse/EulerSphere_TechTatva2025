@@ -6,3 +6,5 @@
 | 02    | PandigitalNumbers   | Navya    |        |
 | 03    | PartitioningCoins   | Navya    |        |
 | 01    | SpecialTreeProducts | Abhyuday |        |
+| 05    | CountingFridays     | Ishita   |        |
+| 06    | FibonacciNugget     | Ishita   |        |
