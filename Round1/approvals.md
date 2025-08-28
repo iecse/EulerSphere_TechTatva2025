@@ -1,6 +1,8 @@
 # Questions Status
-| Sr.No | Question Name | OC | Status |
-| --- | --- | --- | --- |
-| 01 | PalindromicProducts | Navya | |
-| 02 | PandigitalNumbers | Navya | |
-| 03 | PartitioningCoins | Navya | |
+
+| Sr.No | Question Name       | OC       | Status |
+| ----- | ------------------- | -------- | ------ |
+| 01    | PalindromicProducts | Navya    |        |
+| 02    | PandigitalNumbers   | Navya    |        |
+| 03    | PartitioningCoins   | Navya    |        |
+| 01    | SpecialTreeProducts | Abhyuday |        |
