@@ -1,6 +1,5 @@
-package Round1.IshitaPadhi;
 
-public class CountingFridays {
+public class CountFriday {
     public static void main(String[] args) {
         int fridayCount = 0; 
         int dayOfWeek = 6; // 1 Jan 2000 is Saturday (Saturday=6 if we consider Sunday=0)
@@ -16,7 +15,7 @@ public class CountingFridays {
 
                 if (thirteenthDayOfWeek == 5) { // 5 means Friday
                     fridayCount++;
-                    }
+                }
 
                 // Move dayOfWeek to the 1st day of next month
                 dayOfWeek = (dayOfWeek + daysInMonth) % 7;
@@ -24,7 +23,8 @@ public class CountingFridays {
         }
         System.out.println("Number of Fridays on the 13th between 2000 and 2020: " + fridayCount);
     }
-// Helper method: find number of days in a month
+
+    // Helper method: find number of days in a month
     public static int getDaysInMonth(int month, int year) {
         switch (month) {
             case 4: case 6: case 9: case 11: return 30; // April, June, Sept, Nov
@@ -36,9 +36,7 @@ public class CountingFridays {
     // Leap year rule
     public static boolean isLeapYear(int year) {
         if (year % 400 == 0) return true;
-         if (year % 100 == 0) return false;
+        if (year % 100 == 0) return false;
         return year % 4 == 0;
     }
 }
-    
-
