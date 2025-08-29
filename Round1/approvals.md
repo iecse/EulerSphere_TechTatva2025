@@ -11,3 +11,4 @@
 | 07    | NegativePellSum     | Abhyuday |        |
 | 08    | PeakAnalysis        | Abhyuday |        |
 | 09    | TwistedHanoi        | Navya    |        |
+| 10    | RightTriangleSquares| Ishita   |        |
