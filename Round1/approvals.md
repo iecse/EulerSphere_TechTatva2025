@@ -6,4 +6,6 @@
 | 02    | PandigitalNumbers   | Navya    |        |
 | 03    | PartitioningCoins   | Navya    |        |
 | 04    | SpecialTreeProducts | Abhyuday |        |
-| 05    | NegativePellSum     | Abhyuday |        |
+| 05    | CountingFridays     | Ishita   |        |
+| 06    | FibonacciNuggets    | Ishita   |        |
+| 07    | NegativePellSum     | Abhyuday |        |
