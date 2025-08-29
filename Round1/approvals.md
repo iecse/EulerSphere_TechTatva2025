@@ -5,4 +5,9 @@
 | 01    | PalindromicProducts | Navya    |        |
 | 02    | PandigitalNumbers   | Navya    |        |
 | 03    | PartitioningCoins   | Navya    |        |
-| 01    | SpecialTreeProducts | Abhyuday |        |
+| 04    | SpecialTreeProducts | Abhyuday |        |
+| 05    | CountingFridays     | Ishita   |        |
+| 06    | FibonacciNuggets    | Ishita   |        |
+| 07    | NegativePellSum     | Abhyuday |        |
+| 08    | PeakAnalysis        | Abhyuday |        |
+| 09    | TwistedHanoi        | Navya    |        |
