@@ -13,7 +13,7 @@ for p in permutations(range(10)):
     if d[0] == 0:
         continue
 
-    even_sum = d[1] + d[3] + d[5] + d[7] + d[9]
+    even_sum = d[1] + d[3] + d[5] +     d[7] + d[9]
     if not is_prime(even_sum):
         continue
 
