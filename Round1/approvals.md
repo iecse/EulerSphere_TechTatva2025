@@ -9,3 +9,4 @@
 | 05    | CountingFridays     | Ishita   |        |
 | 06    | FibonacciNuggets    | Ishita   |        |
 | 07    | NegativePellSum     | Abhyuday |        |
+| 08    | PeakAnalysis        | Abhyuday |        |
