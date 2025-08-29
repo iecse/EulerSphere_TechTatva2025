@@ -10,3 +10,4 @@
 | 06    | FibonacciNuggets    | Ishita   |        |
 | 07    | NegativePellSum     | Abhyuday |        |
 | 08    | PeakAnalysis        | Abhyuday |        |
+| 09    | TwistedHanoi        | Navya    |        |
