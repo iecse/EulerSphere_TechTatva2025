@@ -12,3 +12,6 @@
 | 08    | PeakAnalysis        | Abhyuday |        |
 | 09    | TwistedHanoi        | Navya    |        |
 | 10    | RightTriangleSquares| Ishita   |        |
+| 11    | PrimeGeneratingCubic| Ishita   |        |
+| 12    | PrimeCrossInSpiral  | Ishita   |        |
+
