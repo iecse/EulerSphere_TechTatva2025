@@ -5,4 +5,5 @@
 | 01    | PalindromicProducts | Navya    |        |
 | 02    | PandigitalNumbers   | Navya    |        |
 | 03    | PartitioningCoins   | Navya    |        |
-| 01    | SpecialTreeProducts | Abhyuday |        |
+| 04    | SpecialTreeProducts | Abhyuday |        |
+| 05    | NegativePellSum     | Abhyuday |        |
