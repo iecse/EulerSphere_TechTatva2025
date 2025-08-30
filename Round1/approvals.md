@@ -15,3 +15,6 @@
 | 11    | PrimeGeneratingCubic| Ishita   |  | rework the question completely... | |
 | 12    | PrimeCrossInSpiral  | Ishita   | Medium | Reword the question to be more readable | |
 | 13    | MagicSquares        | Navya    |  - | Work on the question | |
+| 14    | DoublePalindrome    | Rutu     | Easy |  | 
+| 15    | CubeSumDiff         | Rutu  |  Easy |   |
+| 16    | SquareFree          | Rutu   | Easy |  |
