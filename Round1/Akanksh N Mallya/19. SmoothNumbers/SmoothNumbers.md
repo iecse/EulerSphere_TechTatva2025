@@ -1,5 +1,4 @@
-### Question (Difficulty: Medium–High)
-
+### Question (Difficulty: Medium)
 Working from left to right, if the absolute difference between every pair of adjacent digits is at most **1**, we call the number a **smooth number**.
 
 **Examples:**

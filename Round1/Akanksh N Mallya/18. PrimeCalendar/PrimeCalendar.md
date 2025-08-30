@@ -1,6 +1,6 @@
 # Item 1
 
-### Question (difficulty: medium - high)
+### Question (difficulty: Hard)
 
 Find the largest prime factor of  
 
