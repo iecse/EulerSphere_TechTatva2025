@@ -18,3 +18,4 @@
 | 14    | DoublePalindrome    | Rutu     | Easy |  | 
 | 15    | CubeSumDiff         | Rutu  |  Easy |   |
 | 16    | SquareFree          | Rutu   | Easy |  |
+| 17    | CoinSum             | Akanksh  | Medium | Approved ||
