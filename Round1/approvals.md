@@ -20,4 +20,4 @@
 | 16    | SquareFree          | Rutu   | Easy |  |
 | 17    | CoinSum             | Akanksh  | Medium |  |
 | 18    | PrimeCalendar       | Akanksh  | Hard |  |
-| 18    | SmoothNumbers       | Akanksh  | Medium |  |
+| 19    | SmoothNumbers       | Akanksh  | Medium |  |
