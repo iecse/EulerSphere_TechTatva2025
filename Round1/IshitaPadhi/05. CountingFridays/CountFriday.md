@@ -1,7 +1,5 @@
 # Counting Friday the 13ths  
 
-**Problem Statement**  
-
 ### Description:  
 
 You are given the following information:  
