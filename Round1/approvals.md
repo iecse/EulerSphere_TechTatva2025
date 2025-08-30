@@ -1,17 +1,17 @@
 # Questions Status
 
-| Sr.No | Question Name       | OC       | Status |
-| ----- | ------------------- | -------- | ------ |
-| 01    | PalindromicProducts | Navya    |        |
-| 02    | PandigitalNumbers   | Navya    |        |
-| 03    | PartitioningCoins   | Navya    |        |
-| 04    | SpecialTreeProducts | Abhyuday |        |
-| 05    | CountingFridays     | Ishita   |        |
-| 06    | FibonacciNuggets    | Ishita   |        |
-| 07    | NegativePellSum     | Abhyuday |        |
-| 08    | PeakAnalysis        | Abhyuday |        |
-| 09    | TwistedHanoi        | Navya    |        |
-| 10    | RightTriangleSquares| Ishita   |        |
-| 11    | PrimeGeneratingCubic| Ishita   |        |
-| 12    | PrimeCrossInSpiral  | Ishita   |        |
-| 13    | MagicSquares        | Navya    |        |
+| Sr.No | Question Name       | OC       | Difficulty |  Status |
+| ----- | ------------------- | -------- | ------ | ------ |
+| 01    | PalindromicProducts | Navya    | Medium | Approved |
+| 02    | PandigitalNumbers   | Navya    | Medium | Approved |
+| 03    | PartitioningCoins   | Navya    | Medium | Question is not that clear to understand |
+| 04    | SpectralTreeProducts | Abhyuday | Hard | Approved |
+| 05    | CountingFridays     | Ishita   | Easy | Just reword question to be more readable |
+| 06    | FibonacciNuggets    | Ishita   | Easy | Reword Question - Use GPT to get the latex format for the formulas you've used as pictures      |
+| 07    | NegativePellSum     | Abhyuday | Hard | Approved - Kept for Backup |
+| 08    | PeakAnalysis        | Abhyuday |  | Repeat - Rework question |
+| 09    | TwistedHanoi        | Navya    | Medium | Approved |
+| 10    | RightTriangleSquares| Ishita   | Medium | Reword the question in the format similar like [this.](https://github.com/Roonil03/ProjectEulerCodes/blob/main/Problem0137.%20FibonacciGoldenNuggets/README.md) |
+| 11    | PrimeGeneratingCubic| Ishita   |  | rework the question completely... |
+| 12    | PrimeCrossInSpiral  | Ishita   | Medium | Reword the question to be more readable |
+| 13    | MagicSquares        | Navya    |  - | Work on the question |
