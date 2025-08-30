@@ -14,4 +14,4 @@
 | 10    | RightTriangleSquares| Ishita   |        |
 | 11    | PrimeGeneratingCubic| Ishita   |        |
 | 12    | PrimeCrossInSpiral  | Ishita   |        |
-
+| 13    | MagicSquares        | Navya    |        |
