@@ -22,3 +22,4 @@
 | 18    | PrimeCalendar       | Akanksh  | Hard |  |
 | 19    | SmoothNumbers       | Akanksh  | Medium |  |
 | 20    | SelfPowers          | Ishita   | Easy   |  |
+| 21    | CollatzSequence     | Akanksh  | Medium |  |
