@@ -1,4 +1,4 @@
-# Collatz Sequence Analysis
+# Peak Analysis
 
 ## Problem Statement
 The Collatz Conjecture involves the following iterative process:
