@@ -22,3 +22,8 @@ Find the number of integers n where 1 ≤ n ≤ 1000 such that the peak height P
 - Count the total steps until reaching 1 (not including 1 in the count)
 - The peak height is the maximum value encountered during the entire sequence
 - A perfect square is a number that can be expressed as k² for some positive integer k
+
+## Answer
+```
+113
+```
