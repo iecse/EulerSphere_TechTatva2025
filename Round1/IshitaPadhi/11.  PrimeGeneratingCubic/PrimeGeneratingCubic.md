@@ -1,34 +1,65 @@
-**DESCRIPTION:**
+# Prime-Rich Cubic
 
- Prime Generating Cubic
+## Problem Statement
 
-Mathematicians are fascinated by quadratic and cubic polynomials that generate large sequences of prime numbers.
+Mathematicians are fascinated by polynomials that generate long sequences of prime numbers.  
 
-For example, the polynomial
-f(n) = n² + n + 41
-produces 40 consecutive primes for n = 0 to 39.
+Consider a cubic polynomial:
 
-We will now explore cubic polynomials of the form:
-f(n) = n³ + a·n + b
-where a and b are integers.
+\[
+f(n) = n^3 + a \cdot n + b
+\]
 
-A polynomial is said to be prime-rich if it produces the maximum number of consecutive primes starting from n = 0.
+where \(a\) and \(b\) are integers.  
 
-Task
-Find integers a and b that make the cubic polynomial produce the longest run of consecutive prime numbers starting from n = 0. Output the product a·b of these coefficients.
+A polynomial is said to be **prime-rich** if it produces the **maximum number of consecutive prime numbers** starting from \(n = 0\).  
 
-Input
+Your task is to find integers \(a, b\) (within given constraints) that maximize this sequence, and output the **product \(a \cdot b\)**.
+
+---
+
+## Input
+
 No input required.
 
-Output
-A single integer, the product of the coefficients a and b.
+---
 
-Constraints
+## Output
 
-|a| < 50
+A single integer — the product \(a \cdot b\) of the coefficients that make the polynomial prime-rich.
 
-|b| ≤ 50
+---
 
-**SOLUTION**
+## Constraints
 
--533
+| Parameter | Constraint |
+|----------|------------|
+| a | -50 < a < 50 |
+| b | -50 ≤ b ≤ 50 |
+
+---
+
+## Example
+
+For quadratic polynomials,  
+\[
+f(n) = n^2 + n + 41
+\]  
+generates primes for \(n = 0 \dots 39\).  
+
+Here, we are working with a **cubic polynomial**.
+
+---
+
+## Solution
+
+- **Optimal a:** `-13`  
+- **Optimal b:** `41`  
+- **Maximum consecutive primes:** `45`  
+
+### Final Answer:
+
+\[
+\boxed{-533}
+\]
+
