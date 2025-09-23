@@ -26,3 +26,7 @@ There exists exactly one Pythagorean triplet for which:
 **a + b + c = 5000**
 
 Find the product **abc**.
+
+## Solution
+
+**Answer:** `3984375000`
