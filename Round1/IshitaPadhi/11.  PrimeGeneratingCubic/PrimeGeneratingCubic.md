@@ -16,7 +16,7 @@ $$
 
 <p>We call such a polynomial <b>prime-rich</b> if it produces the <i>maximum number of consecutive primes</i> starting from n=0.</p>  
 
-<p>Your task is to find integers a , b  within the given constraints that maximize the prime sequence and then output the product \(a \cdot b\).</p>  
+<p>Your task is to find integers a , b  within the given constraints that maximize the prime sequence and then output the product a·b .</p>  
 
 ---
 
