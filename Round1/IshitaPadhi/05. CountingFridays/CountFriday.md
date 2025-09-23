@@ -1,23 +1,27 @@
-**DESCRIPTION**
+# Counting Friday the 13ths  
 
- The year starts on **1st January 2000 (Saturday)**.
+**Problem Statement**  
 
-Thirty days has September,
+### Description:  
 
-April, June, and November.
+You are given the following information:  
 
-All the rest have thirty-one,
+```
+1 Jan 2000 was a Saturday.  
+Thirty days has September,  
+April, June, and November.  
+All the rest have thirty-one,  
+Except February which has 28 days,  
+And in leap years, 29.  
+```
 
-Except February which has 28 days,
+- A year is a leap year if:  
+  - It is divisible by 4 but not by 100, OR  
+  - It is divisible by 400.  
 
-and in leap years, 29.
+How many times did **Friday fall on the 13th of a month** between **1 Jan 2000 and 31 Dec 2020**?  
 
-- The year is divisible by 4, but not by 100, OR
-- The year is divisible by 400.
+---
 
-Write a program to count **how many Fridays fall on the 13th of any month between 1 Jan 2000 and 31 Dec 2020.**
-
-
-**SOLUTION**:
-
+### Answer:  
 **37**
