@@ -1,7 +1,7 @@
 
 ---
 
-# Definite Integration: Area Between Curves Hackathon Problem
+# Definite Integration: Area Between Curves 
 
 ## Problem Statement
 
