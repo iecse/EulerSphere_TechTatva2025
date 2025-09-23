@@ -16,7 +16,7 @@ $$
 
 <p>We call such a polynomial <b>prime-rich</b> if it produces the <i>maximum number of consecutive primes</i> starting from \(n = 0\).</p>  
 
-<p>Your task is to find integers \(a, b\) within the given constraints that maximize the prime sequence and then output the product \(a \cdot b\).</p>  
+<p>Your task is to find integers a , b  within the given constraints that maximize the prime sequence and then output the product \(a \cdot b\).</p>  
 
 ---
 
@@ -37,7 +37,7 @@ $$
 f(n) = n^{2} + n + 41
 $$
 
-<p>produces prime numbers for \(n = 0, 1, \dots, 39\).</p>  
+<p>produces prime numbers for \(n = 0, 1, ... 39\).</p>  
 
 <p>In this problem, we focus on cubic polynomials.</p>  
 
@@ -63,7 +63,4 @@ $$
 
 
 
-Would you like me to also make a **short hackathon-style explanation of the solution approach** (like a brief algorithm sketch with steps) so that it looks competition-ready?
 
-
-### Answer:
