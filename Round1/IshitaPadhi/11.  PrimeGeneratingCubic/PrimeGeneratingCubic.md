@@ -1,64 +1,69 @@
+
+
 # Prime-Rich Cubic
 
 ### Description:
-Mathematicians are intrigued by polynomials that generate unusually long sequences of prime numbers.
 
-Consider the cubic polynomial:
+<p>Mathematicians are intrigued by polynomials that generate unusually long sequences of prime numbers.</p>  
 
-\[
+<p>Consider the cubic polynomial:</p>  
+
+$$
 f(n) = n^{3} + a n + b
-\]
+$$
 
-where \(a\) and \(b\) are integers.
+<p>where \(a\) and \(b\) are integers.</p>  
 
-A polynomial is said to be **prime-rich** if it produces the **maximum number of consecutive primes** starting from \(n = 0\).
+<p>We call such a polynomial <b>prime-rich</b> if it produces the <i>maximum number of consecutive primes</i> starting from \(n = 0\).</p>  
 
-Your task is to find integers \(a, b\) within the given constraints that maximize this sequence and output the product \(a \cdot b\).
+<p>Your task is to find integers \(a, b\) within the given constraints that maximize the prime sequence and then output the product \(a \cdot b\).</p>  
 
 ---
 
 ### Constraints:
 
-| Parameter | Constraint |
-|----------|-------------|
-| \(a\) | \(-50 < a < 50\) |
-| \(b\) | \(-50 \leq b \leq 50\) |
+| Parameter | Constraint           |
+| --------- | -------------------- |
+| $a$       | $-50 < a < 50$       |
+| $b$       | $-50 \leq b \leq 50$ |
 
 ---
 
 ### Example:
-For quadratic polynomials:
 
-\[
+<p>For quadratic polynomials,</p>  
+
+$$
 f(n) = n^{2} + n + 41
-\]
+$$
 
-produces primes for \(n = 0, 1, \dots, 39\).
+<p>produces prime numbers for \(n = 0, 1, \dots, 39\).</p>  
 
-In this problem, we focus on **cubic polynomials**.
-
----
-
-### Solution Approach (Algorithm):
-1. Iterate over all values of \(a, b\) within the given range.
-2. For each pair \((a, b)\):
-   - Start from \(n = 0\) and keep computing \(f(n)\).
-   - Check if \(f(n)\) is prime.  
-   - Stop when \(f(n)\) is not prime and count the consecutive primes generated.
-3. Track the pair \((a, b)\) that gives the **longest prime run**.
-4. Output the product \(a \cdot b\).
+<p>In this problem, we focus on cubic polynomials.</p>  
 
 ---
 
 ### Solution:
-The optimal coefficients are:
 
-\[
+<p>The optimal coefficients are:</p>  
+
+$$
 a = -13, \quad b = 41
-\]
+$$
 
-which generate \(45\) consecutive primes.
+<p>This choice yields the maximum of \(45\) consecutive primes.</p>  
 
 ---
+
+### Answer:
+
+```
+-533
+```
+
+
+
+Would you like me to also make a **short hackathon-style explanation of the solution approach** (like a brief algorithm sketch with steps) so that it looks competition-ready?
+
 
 ### Answer:
