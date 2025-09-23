@@ -5,7 +5,7 @@ tags: ["math", "primes", "number theory", "truncatable primes"]
 id: 6
 ---
 
-# Can You Roll?  (Difficulty: Easy)
+# Can You Roll?  (Difficulty: Medium)
 
 ## Problem Statement
 
