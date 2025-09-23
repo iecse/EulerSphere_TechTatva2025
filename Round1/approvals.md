@@ -27,5 +27,6 @@
 | 23    | CanYouRoll          | Akanksh | Medium | Reword |
 | 24    | NewtonRaphson       | Ishita   |      |        |
 | 25    | AreaBetweenCurves   | Ishita   |      |        |
+| 26    | IndefiniteIntegrals | Ishita   |      |        |
 
 
