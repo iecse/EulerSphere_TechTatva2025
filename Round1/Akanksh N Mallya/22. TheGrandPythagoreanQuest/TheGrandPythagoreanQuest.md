@@ -1,6 +1,6 @@
 ---
 title: "The Grand Pythagorean Quest"
-difficulty: "Easy"
+difficulty: "Medium"
 tags: ["math", "number theory", "pythagoras", "triplets"]
 id: 5
 ---
