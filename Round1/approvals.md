@@ -18,10 +18,10 @@
 | 14    | DoublePalindrome    | Rutu     | Easy |  | 
 | 15    | CubeSumDiff         | Rutu  |  Easy |   |
 | 16    | SquareFree          | Rutu   | Easy |  |
-| 17    | CoinSum             | Akanksh  | Medium |  |
-| 18    | PrimeCalendar       | Akanksh  | Hard |  |
-| 19    | SmoothNumbers       | Akanksh  | Medium |  |
+| 17    | CoinSum             | Akanksh  | Medium | Approved |
+| 18    | PrimeCalendar       | Akanksh  | Hard | Pending;Solution Required |
+| 19    | SmoothNumbers       | Akanksh  | Medium | Rework Needed  |
 | 20    | SelfPowers          | Ishita   | Easy   |  |
-| 21    | CollatzSequence     | Akanksh  | Medium |  |
-| 22    | TheGrandPythagoreanQuest     | Akanksh  | Easy |  |
-| 23    | CanYouRoll     | Akanksh | Easy |  |
+| 21    | CollatzSequence     | Akanksh  | Hard | Reword and make it hard |
+| 22    | TheGrandPythagoreanQuest     | Akanksh  | Easy | Reword  |
+| 23    | CanYouRoll     | Akanksh | Medium | Reword |
