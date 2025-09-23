@@ -24,3 +24,4 @@
 | 20    | SelfPowers          | Ishita   | Easy   |  |
 | 21    | CollatzSequence     | Akanksh  | Medium |  |
 | 22    | TheGrandPythagoreanQuest     | Akanksh  | Easy |  |
+| 23    | CanYouRoll     | Akanksh | Easy |  |
