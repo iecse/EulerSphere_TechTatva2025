@@ -1,73 +1,82 @@
-# Prime Cross in Spiral
+# Fibonacci Nugget Series
 
 ## Description
+Consider the series:
 
-Starting from the number **1** at the center of a square spiral and moving **anticlockwise**, we form layers of increasing side length.
+$$
+S(x) = F_1x + F_2x^2 + F_3x^3 + \cdots
+$$
 
-For example, a spiral with side length \( 5 \) looks like this:
-
-| 21 | 22 | 23 | 24 | 25 |
-|----|----|----|----|----|
-| 20 |  7 |  8 |  9 | 10 |
-| 19 |  6 |  1 |  2 | 11 |
-| 18 |  5 |  4 |  3 | 12 |
-| 17 | 16 | 15 | 14 | 13 |
-
----
-
-## Diagonal Numbers
-
-The numbers along both diagonals are:
-
-\[
-21, \ 7, \ 1, \ 3, \ 13, \ 17, \ 5, \ 9, \ 25
-\]
-
-Among these, the prime numbers are:
-
-\[
-7, \ 3, \ 13, \ 17, \ 5
-\]
-
-That’s **5 primes out of 9 diagonal numbers**, giving a ratio of approximately:
-
-\[
-\frac{5}{9} \approx 55.5\%
-\]
+where \( F_k \) is the \( k \)-th Fibonacci number:  
+\( F1 = 1, \; F2 = 1, \; F3 = 2, \; F4 = 3... \).
 
 ---
 
 ## Task
+We say that \( x \) produces a **nugget** if the value of \( S(x) \) (evaluated to infinity) is a positive integer.  
 
-Continue building larger and larger spirals (always with odd side lengths: \(1, 3, 5, 7, 9, \dots \)).
+Show that this infinite sum can be expressed in closed form as:
 
-Find the **first side length** of the spiral for which the ratio of primes on both diagonals falls below **20%**.
+$$
+S(x) = \frac{x}{1 - x - x^2}
+$$
 
----
+Write a program to find the sum of all integer nuggets of \( S(x) \) for:
 
-## Input
+$$
+1 \leq n \leq 20
+$$
 
-- **No input required.**
-
----
-
-## Output
-
-A single integer:
-
-- The **side length** of the square spiral where the prime ratio first drops below \(20\%\).
+where \( n = S(x) \) is the nugget value.
 
 ---
 
-## Constraints
+## Example
 
-- The spiral is built only with **odd side lengths**.
-- The center number \(1\) is **not considered prime**.
+For \( x = 1/2 \):
+
+$$
+S\!\left(\tfrac{1}{2}\right) 
+= \frac{\tfrac{1}{2}}{1 - \tfrac{1}{2} - \left(\tfrac{1}{2}\right)^2} 
+= \frac{\tfrac{1}{2}}{1 - \tfrac{1}{2} - \tfrac{1}{4}} 
+= \frac{\tfrac{1}{2}}{\tfrac{1}{4}} 
+= 2
+$$
+
+Hence, \( 2 \) is a nugget.  
+
+---
+
+For \( x = 1/3 \):
+
+$$
+S\!\left(\tfrac{1}{3}\right) 
+= \frac{\tfrac{1}{3}}{1 - \tfrac{1}{3} - \left(\tfrac{1}{3}\right)^2} 
+= \frac{\tfrac{1}{3}}{1 - \tfrac{1}{3} - \tfrac{1}{9}} 
+= \frac{\tfrac{1}{3}}{\tfrac{5}{9}} 
+= \tfrac{3}{5}
+$$
+
+This is not an integer, so it is **not** a nugget.  
 
 ---
 
 ## Solution
+The nuggets found in the range  are:
 
-\[
-\boxed{309}
-\]
+$$
+2 \quad \text{and} \quad 15
+$$
+
+Thus, the sum of nuggets is:
+
+$$
+2 + 15 = 17
+$$
+
+---
+
+## Final Answer
+$$
+\boxed{17}
+$$
