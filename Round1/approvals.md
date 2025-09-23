@@ -9,7 +9,7 @@
 | 05    | CountingFridays     | Ishita   | Easy | Just reword question to be more readable | |
 | 06    | FibonacciNuggets    | Ishita   | Easy | Reword Question - Use GPT to get the latex format for the formulas you've used as pictures      | |
 | 07    | NegativePellSum     | Abhyuday | Hard | Approved - Kept for Backup | |
-| 08    | PeakAnalysis        | Abhyuday | Hard |  | Approved|
+| 08    | PeakAnalysis        | Abhyuday | Hard | Approved | |
 | 09    | TwistedHanoi        | Navya    | Medium | Approved | |
 | 10    | RightTriangleSquares| Ishita   | Medium | Reword the question in the format similar like [this.](https://github.com/Roonil03/ProjectEulerCodes/blob/main/Problem0137.%20FibonacciGoldenNuggets/README.md) | |
 | 11    | PrimeGeneratingCubic| Ishita   |  | rework the question completely... | |
