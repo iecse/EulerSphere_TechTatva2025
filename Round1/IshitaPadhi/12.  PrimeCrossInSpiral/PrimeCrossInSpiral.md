@@ -52,8 +52,6 @@ The **side length** of the square spiral where the prime ratio first drops below
 ---
 
 ## Solution
-
-## Solution
 $$
 \boxed{309}
 $$
