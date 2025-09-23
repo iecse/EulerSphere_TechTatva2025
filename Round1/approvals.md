@@ -28,5 +28,7 @@
 | 24    | NewtonRaphson       | Ishita   |      |        |
 | 25    | AreaBetweenCurves   | Ishita   |      |        |
 | 26    | IndefiniteIntegrals | Ishita   |      |        |
+| 27    | BinomialCoeff       | Ishita   |      |        |
+
 
 
