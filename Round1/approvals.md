@@ -29,6 +29,7 @@
 | 25    | AreaBetweenCurves   | Ishita   |      |        |
 | 26    | IndefiniteIntegrals | Ishita   |      |        |
 | 27    | BinomialCoeff       | Ishita   |      |        |
+| 28    | EmptyChairs         | Ishita   |      |        |
 
 
 
