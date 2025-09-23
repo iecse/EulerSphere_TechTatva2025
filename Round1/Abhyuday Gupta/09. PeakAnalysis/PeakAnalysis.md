@@ -25,5 +25,5 @@ Find the number of integers n where 1 ≤ n ≤ 1000 such that the peak height P
 
 ## Answer
 ```
-113
+58
 ```
