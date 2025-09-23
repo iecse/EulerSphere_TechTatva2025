@@ -8,14 +8,14 @@ public class AreaBetweenCurves {
     }
 
     public static void main(String[] args) {
-        int n = 1000;          // Number of intervals
+        int n = 10000;          // Use more subdivisions for accuracy
         double a = 0.0, b = 2.0;
         double dx = (b - a) / n;
         double area = 0.0;
 
         for (int i = 0; i <= n; i++) {
             double x = a + i * dx;
-            double hx = Math.abs(f(x) - g(x));
+            double hx = Math.abs(f(x) - g(x)); // Absolute value!
             if (i == 0 || i == n)
                 area += hx / 2.0;
             else
@@ -24,6 +24,6 @@ public class AreaBetweenCurves {
 
         area *= dx;
 
-        System.out.println(Math.round(area)); // Output nearest integer
+        System.out.println(Math.round(area)); // Correct nearest integer
     }
 }
