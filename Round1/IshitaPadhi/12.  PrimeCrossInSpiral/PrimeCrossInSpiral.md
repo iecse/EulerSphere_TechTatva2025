@@ -15,25 +15,19 @@ Starting from **1** at the center of a square spiral and moving **anticlockwise*
 
 Numbers along the diagonals:
 
-\[
-21, \ 7, \ 1, \ 3, \ 13, \ 17, \ 5, \ 9, \ 25
-\]
+21, 7, 1, 3, 13, 17, 5, 1, 9, 25.  
+
 
 Primes on diagonals:
-
-\[
-7, \ 3, \ 13, \ 17, \ 5
-\]
+ 7, 3, 13, 17, 5
 
 ---
 
 ## Task
 
-Continue building larger spirals (side lengths \(1, 3, 5, 7, 9, \dots\)) and find the **first side length** for which:
+ Continue building larger and larger spirals (always with odd side lengths: 1, 3, 5, 7, 9, …). Find the first side length of the spiral for which the ratio of primes on both diagonals falls below 20%.
 
-\[
-\frac{\text{Prime Count on Diagonals}}{\text{Total Diagonal Numbers}} < 20\%
-\]
+
 
 ---
 
@@ -59,7 +53,7 @@ The **side length** of the square spiral where the prime ratio first drops below
 
 ## Solution
 
-\[
+## Solution
+$$
 \boxed{309}
-\]
-
+$$
