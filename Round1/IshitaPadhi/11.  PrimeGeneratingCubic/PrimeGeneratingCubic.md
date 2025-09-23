@@ -12,7 +12,7 @@ $$
 f(n) = n^{3} + a n + b
 $$
 
-<p>where \(a\) and \(b\) are integers.</p>  
+<p>where a and b are integers.</p>  
 
 <p>We call such a polynomial <b>prime-rich</b> if it produces the <i>maximum number of consecutive primes</i> starting from \(n = 0\).</p>  
 
