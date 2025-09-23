@@ -7,7 +7,7 @@ $$
 S(x) = F_1x + F_2x^2 + F_3x^3 + \cdots
 $$
 
-where \( F_k \) is the \( k \)-th Fibonacci number:  
+where \( Fk \) is the kth Fibonacci number:  
 \( F1 = 1, \; F2 = 1, \; F3 = 2, \; F4 = 3... \).
 
 ---
