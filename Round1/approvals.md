@@ -25,3 +25,5 @@
 | 21    | CollatzSequence     | Akanksh  | Hard | Reword and make it hard |
 | 22    | TheGrandPythagoreanQuest     | Akanksh  | Easy | Reword  |
 | 23    | CanYouRoll     | Akanksh | Medium | Reword |
+| 24   | NewtonRaphson   | Ishita |      |        |
+
