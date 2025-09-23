@@ -18,8 +18,6 @@ Note: **2, 3, 5, 7** are *not* considered Right-Rolling Primes.
 
 ---
 
-## Task
-
 Find the **first 15 Right-Rolling Primes** and print their **sum**.
 
 ---
