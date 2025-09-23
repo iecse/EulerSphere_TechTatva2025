@@ -14,16 +14,15 @@ def collatz_analysis(n):
     
     return peak, steps
 
-def contains_digit_2(num):
-    return '2' in str(num)
+def is_perfect_square(num):
+    sqrt_num = int(num ** 0.5)
+    return sqrt_num * sqrt_num == num
 
-total_sum = 0
-for n in range(1, 50001, 2):  # Only odd numbers
+count = 0
+for n in range(1, 1001):
     peak, steps = collatz_analysis(n)
     
-    if (peak > 3 * n and 
-        steps % 4 == 0 and 
-        contains_digit_2(peak)):
-        total_sum += n
+    if is_perfect_square(peak):
+        count += 1
 
-print(total_sum)
+print(count)

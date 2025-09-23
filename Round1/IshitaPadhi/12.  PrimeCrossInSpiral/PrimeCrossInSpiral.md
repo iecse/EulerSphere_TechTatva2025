@@ -1,6 +1,9 @@
 # Prime Cross in Spiral
 
 ## Description
+# Prime Cross in Spiral
+
+## Description
 
 Starting from **1** at the center of a square spiral and moving **anticlockwise**, we form layers of increasing **odd side length**.
 
