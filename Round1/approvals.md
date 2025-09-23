@@ -23,7 +23,9 @@
 | 19    | SmoothNumbers       | Akanksh  | Medium | Rework Needed  |
 | 20    | SelfPowers          | Ishita   | Easy   |  |
 | 21    | CollatzSequence     | Akanksh  | Hard | Reword and make it hard |
-| 22    | TheGrandPythagoreanQuest     | Akanksh  | Easy | Reword  |
-| 23    | CanYouRoll     | Akanksh | Medium | Reword |
-| 24   | NewtonRaphson   | Ishita |      |        |
+| 22    | TheGrandPythagoreanQuest| Akanksh  | Easy | Reword  |
+| 23    | CanYouRoll          | Akanksh | Medium | Reword |
+| 24    | NewtonRaphson       | Ishita   |      |        |
+| 25    | AreaBetweenCurves   | Ishita   |      |        |
+
 
