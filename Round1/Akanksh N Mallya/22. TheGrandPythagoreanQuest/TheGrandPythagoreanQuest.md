@@ -21,8 +21,6 @@ $$
 
 ---
 
-👉 **Task:**  
-
 There exists exactly one Pythagorean triplet for which:
 
 **a + b + c = 5000**
