@@ -5,7 +5,7 @@ tags: ["math", "digit dp", "number theory", "smooth numbers"]
 id: 8
 ---
 
-# Smooth Numbers – 50% Version (Difficulty: Easy)
+# Smooth Numbers (Difficulty: Easy)
 
 We define a **smooth number** as a positive integer in which the absolute difference between every pair of adjacent digits is at most **1**.
 
@@ -34,7 +34,6 @@ $$
 
 ---
 
-👉 **Task:**  
 Find the **least positive integer n** for which the proportion of smooth numbers is **exactly 50%**.
 
 ---
