@@ -5,4 +5,4 @@ def count_partitions(n, max_part):
         return 0
     return count_partitions(n - max_part, max_part) + count_partitions(n, max_part - 1)
 
-print(count_partitions(16, 16))
+print(count_partitions(11, 11))
