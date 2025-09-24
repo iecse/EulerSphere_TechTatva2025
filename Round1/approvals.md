@@ -25,11 +25,15 @@
 | 21    | CollatzSequence     | Akanksh  | Hard | Reword and make it hard |
 | 22    | TheGrandPythagoreanQuest| Akanksh  | Easy | Reword  |
 | 23    | CanYouRoll          | Akanksh | Medium | Reword |
-| 24    | NewtonRaphson       | Ishita   |      |        |
-| 25    | AreaBetweenCurves   | Ishita   |      |        |
-| 26    | IndefiniteIntegrals | Ishita   |      |        |
-| 27    | BinomialCoeff       | Ishita   |      |        |
-| 28    | EmptyChairs         | Ishita   |      |        |
+| 24    | NewtonRaphson       | Ishita   |Easy  |        |
+| 25    | AreaBetweenCurves   | Ishita   |Easy  |        |
+| 26    | IndefiniteIntegrals | Ishita   |Easy  |        |
+| 27    | BinomialCoeff       | Ishita   |Easy  |        |
+| 28    | EmptyChairs         | Ishita   |medium|        |
+| 29    | MaximumPathSum      | Ishita   |medium|        |
+| 30    |SquaresUnderHyperBola | Ishita   |hard|        |
+
+
 
 
 
