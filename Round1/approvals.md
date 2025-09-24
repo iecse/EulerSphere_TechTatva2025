@@ -31,7 +31,7 @@
 | 27    | BinomialCoeff       | Ishita   |Easy  |        |
 | 28    | EmptyChairs         | Ishita   |medium|        |
 | 29    | MaximumPathSum      | Ishita   |medium|        |
-| 30    |SquaresUnderHyperBola | Ishita   |hard|        |
+| 30    |RungeKutta           | Ishita   |      |        |
 
 
 
