@@ -19,6 +19,6 @@ def matrix_power_mod(A, n, mod):
 MOD = 1000000007
 
 M = np.array([[1, 1], [1, 0]], dtype=int)
-result_matrix = matrix_power_mod(M, 100, MOD)
-F_100 = result_matrix[0][1] % MOD
-print(F_100)
+result_matrix = matrix_power_mod(M, 20, MOD)
+F_20 = result_matrix[0][1] % MOD
+print(F_20)
