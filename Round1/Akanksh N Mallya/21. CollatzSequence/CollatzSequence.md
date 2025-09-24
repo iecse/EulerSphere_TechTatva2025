@@ -22,5 +22,11 @@ Although it has not been proved yet (this is known as the *Collatz Problem*), it
 
 ---
 
-👉 **Task:**  
 Find the **starting number under 10,000** that produces the **second longest Collatz chain**.
+
+---
+
+## Solution
+Second longest chain under 10000:
+Number: 9257
+Length: 260
