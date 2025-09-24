@@ -1,6 +1,5 @@
 
-
-# Newton-Raphson Method:  
+# Newton-Raphson Method
 
 ## Problem Statement
 
@@ -26,18 +25,12 @@ or the maximum number of iterations is reached.
 
 ---
 
-## Output
-
-Print a **single integer**, which is the nearest integer to the root found using Newton-Raphson.
-
----
-
-## Solution
-
-Start with $x_0 = 3$ and iteratively apply the **Newton-Raphson formula**:
+## Newton-Raphson Formula (Reference)
 
 $$
+\boxed{
 x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
+}
 $$
 
 where the derivative of $f(x)$ is:
@@ -46,7 +39,17 @@ $$
 f'(x) = 3x^2 - 14x + 14
 $$
 
-The iteration continues until:
+---
+
+## Output
+
+Print a **single integer**, which is the nearest integer to the root found using Newton-Raphson.
+
+---
+
+## Solution
+
+Start with $x_0 = 3$ and iteratively apply the **Newton-Raphson formula** until:
 
 $$
 \left| x_{n+1} - x_n \right| < 0.001 \quad \text{or maximum 20 iterations reached.}
@@ -71,4 +74,3 @@ $$
 \boxed{3}
 $$
 
----
