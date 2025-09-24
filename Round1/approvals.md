@@ -38,5 +38,4 @@
 | 34    | FibonacchiMatrix         | Abhyuday | Medium     |                                                                                                                                                                 |                      |
 | 35    | TwistedAP                | Navya    |            |                                                                                                                                                                 |                      |
 | 36    | DiceDifference                | Navya    |            |                                                                                                                                                                 |                      |
-
 | 37    | CatalansProblem                | Navya    |            |                                                                                                                                                                 |                      |
