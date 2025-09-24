@@ -1,6 +1,5 @@
 # Questions Status
 
-<<<<<<< HEAD
 | Sr.No | Question Name | OC | Difficulty | Status | Question Inspiration |
 | ----- | ------------------- | -------- | ------ | ------ | ------ |
 | 01 | PalindromicProducts | Navya | Medium | Approved | |
