@@ -21,25 +21,15 @@ $$
 [0, 2]
 $$
 
-Use **any numerical method** (e.g., Trapezoidal Rule or Simpson's Rule) to approximate the integral:
-
-$$
-\text{Area} = \int_0^2 |f(x) - g(x)| \, dx
-$$
-
----
-
-## Output
-
-Print a **single integer**, which is the integer part of the area (ex- if ans is 20.789 so your ans should be 20).
 
 ---
 
 ## Task
 
-Write a program to **numerically approximate** the area between the curves $f(x)$ and $g(x)$ over $[0,2]$ and output the **nearest integer**.
+The solution should be  rounded off to the nearest integer
 
 ---
+
 
 ## Solution
 
@@ -64,7 +54,7 @@ $$
 Computing numerically, we get:
 
 $$
-\text{Area} \approx 2.667
+\text{Area} \approx  2.0450849718229454
 $$
 
 **Nearest integer:**
