@@ -16,6 +16,7 @@ $$
 $$
 Take \pi = 3.14 and \sqrt{3} = 1.732
 $$
+Keep the answer in 4 decimal places
 ---
 
 ### Solution  
@@ -65,3 +66,4 @@ $$
 I = -\frac{\pi}{6} \cdot \frac{\sqrt{3}}{2} + \frac{1}{2}
 = \frac{6 - \pi \sqrt{3}}{12}
 $$
+I = 0.0473
