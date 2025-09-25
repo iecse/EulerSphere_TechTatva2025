@@ -16,6 +16,7 @@ $$
 $$
 Take \pi = 3.14 and \sqrt{3} = 1.732
 $$
+Keep the answer in 3 decimal places
 ---
 
 ### Solution  
@@ -33,8 +34,8 @@ x = \sin \theta, \quad dx = \cos \theta \, d\theta
 $$  
 
 $$
-When \( x = 0 \Rightarrow \theta = 0\),  
-and when \(x = \frac{1}{2} \Rightarrow \theta = \tfrac{\pi}{6}\).  
+When ( x = 0 \Rightarrow \theta = 0),  
+and when (x = \frac{1}{2} \Rightarrow \theta = \tfrac{\pi}{6}).  
 $$
 
 Thus:  
@@ -65,3 +66,4 @@ $$
 I = -\frac{\pi}{6} \cdot \frac{\sqrt{3}}{2} + \frac{1}{2}
 = \frac{6 - \pi \sqrt{3}}{12}
 $$
+Answer = 0.047
