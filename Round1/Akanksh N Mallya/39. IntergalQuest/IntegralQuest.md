@@ -33,8 +33,8 @@ x = \sin \theta, \quad dx = \cos \theta \, d\theta
 $$  
 
 $$
-When \( x = 0 \sRightarrow \theta = 0\),  
-and when \(x = \t\frac{1}{2} \Rightarrow \theta = \tfrac{\pi}{6}\).  
+When \( x = 0 \Rightarrow \theta = 0\),  
+and when \(x = \frac{1}{2} \Rightarrow \theta = \tfrac{\pi}{6}\).  
 $$
 
 Thus:  
