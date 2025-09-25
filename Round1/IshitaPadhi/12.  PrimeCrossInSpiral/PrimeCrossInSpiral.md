@@ -1,6 +1,9 @@
 # Prime Cross in Spiral
 
 ## Description
+# Prime Cross in Spiral
+
+## Description
 
 Starting from **1** at the center of a square spiral and moving **anticlockwise**, we form layers of increasing **odd side length**.
 
@@ -50,6 +53,8 @@ The **side length** of the square spiral where the prime ratio first drops below
 - The center number \(1\) is **not considered prime**.
 
 ---
+
+## Solution
 
 ## Solution
 $$

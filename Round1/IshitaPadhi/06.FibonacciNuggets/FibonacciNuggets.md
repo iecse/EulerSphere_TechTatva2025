@@ -7,8 +7,8 @@ $$
 S(x) = F_1x + F_2x^2 + F_3x^3 + \cdots
 $$
 
-where \( Fk \) is the \( k \)-th Fibonacci number:  
-\( F1 = 1, \; F2 = 1, \; F3 = 2, \; F4 = 3, ... \).
+where \( Fk \) is the kth Fibonacci number:  
+\( F1 = 1, \; F2 = 1, \; F3 = 2, \; F4 = 3... \).
 
 ---
 
@@ -62,7 +62,7 @@ This is not an integer, so it is **not** a nugget.
 ---
 
 ## Solution
-The nuggets found in the range are:
+The nuggets found in the range  are:
 
 $$
 2 \quad \text{and} \quad 15
