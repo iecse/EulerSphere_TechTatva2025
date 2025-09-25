@@ -33,3 +33,4 @@
 | 29    | MaximumPathSum           | Ishita   | medium     |                                                                                                                                                                 |
 | 30    | RungeKutta               | Ishita   |            |                                                                                                                                                                 |
 | 31    | IterativeConvergence     | Abhyuday | Easy       |                                                                                                                                                                 |
+| 32    | TwistedAP             | Navya    |        |                                                                                                                                                         |                      |
