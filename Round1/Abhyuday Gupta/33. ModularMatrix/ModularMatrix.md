@@ -1,4 +1,4 @@
-# Modular Matrix Power Challenge
+# Modular Matrix Power
 
 ## Problem Statement
 
