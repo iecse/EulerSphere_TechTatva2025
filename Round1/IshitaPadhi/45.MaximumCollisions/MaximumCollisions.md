@@ -1,5 +1,4 @@
 
-
 # Hash Function Analysis: Maximum Collision Analysis
 
 ## Problem Description
@@ -82,7 +81,6 @@ def find_max_collisions():
 ### Final Answer
 
 $$
-\boxed{11}
+\boxed{12}
 $$
 
----
