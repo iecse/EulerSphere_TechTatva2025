@@ -15,7 +15,7 @@ Find the area of the **remaining region**.
 ---
 
 ## Solution
-
+$$
 We know that \(y = e^x\) and \(y = \log_e x\) are inverses of each other.  
 So, their graphs are symmetrical about the line \(y = x\).
 
@@ -47,14 +47,14 @@ Therefore, the area of the **remaining region** of the square is:
 \[
 4 - 2(2\log_e 2 - 1) = 6 - 4 \log_e 2 \quad \text{sq. units.}
 \]
-
+$$
 ---
 
 ## Final Answer
-
+$$
 \[
 \boxed{6 - 4 \log_e 2 \text{ sq. units}}
 \]
-
+$$
 ---
 
