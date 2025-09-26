@@ -21,10 +21,14 @@ public class UniversalHashing {
             }
         }
 
-        double probability = (double) collisionCount / totalPairs;
-        int percentage = (int) Math.round(probability * 100);
+        // Use float to see the actual value
+        float probability = (float) collisionCount / totalPairs;
+        float percentageFloat = probability * 100;
 
-        // Print a single integer (percentage)
-        System.out.println(percentage);
+        System.out.println("Collision count: " + collisionCount);
+        System.out.println("Total pairs: " + totalPairs);
+        System.out.println("Probability (float): " + probability);
+        System.out.println("Percentage (float): " + percentageFloat);
+        System.out.println("Rounded percentage: " + Math.round(percentageFloat));
     }
 }
