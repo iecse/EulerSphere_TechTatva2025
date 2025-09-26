@@ -9,6 +9,7 @@ $$
 x + 2y + z &= 4
 \end{align*}
 $$
+
 has infinitely many solutions, then what is the value of $22\beta - 9\alpha$?
 
 ***
