@@ -54,3 +54,4 @@
 | 50    | DistinctPowerTerm |Arunima   |       |                                                                                                                                                                 |                      |
 | 51   | TruncatablePrimes |Ishita  |          |                                                                                                                                                                 |                      |
 | 52   | DoubleBasePalindromes |Ishita  |         |                                                                                                                                                                 |                      |
+| 53   | ModI |Akanksh  | Medium        |                                                                                                                                                                 |                      |
