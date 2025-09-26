@@ -28,6 +28,7 @@ First, we'll use the trigonometric angle addition formula on the third column ($
 $\sin(A + B) = \sin A \cos B + \cos A \sin B$.
 
 Applying this, the determinant becomes: 
+
 $$
 \Delta = \begin{vmatrix}
 \sin \alpha & \cos \alpha & \sin \alpha \cos \delta + \cos \alpha \sin \delta \\
