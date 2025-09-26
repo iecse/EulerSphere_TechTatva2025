@@ -52,10 +52,16 @@ $$
 &\equiv (16 \cdot 21) \pmod{23} \quad (\text{since } 108 = 4 \times 23 + 16) \\
 &\equiv 336 \pmod{23}
 \end{align*}
-$$Finally, we divide 336 by 23:$$336 = 14 \times 23 + 14$$
+$$
+
+Finally, we divide 336 by 23:
+
+$$336 = 14 \times 23 + 14$$
+
 So, the remainder is 14.
 
-Therefore, $7^{103} \equiv 14 \pmod{23}$.
+$$
+Therefore, $7^{103} \equiv 14 \pmod{23}.
+$$
 
 Final answer = 14
-$$
