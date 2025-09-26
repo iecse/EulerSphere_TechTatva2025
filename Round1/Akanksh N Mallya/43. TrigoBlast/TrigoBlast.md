@@ -52,6 +52,8 @@ $$
 \end{vmatrix}
 $$
 
+***
+
 Now, we can take the common factors $\cos \delta$ from the third column of the first determinant and $\sin \delta$ from the third column of the second determinant.
 
 $$
