@@ -48,6 +48,7 @@ $$\int_{0}^{e^3} [e^{1-x}] \,dx = \int_{0}^{1-\ln 2} 2 \,dx + \int_{1-\ln 2}^{1}
 ### Step 4: Evaluate the Integral
 
 Let's calculate each part:
+
 $$
 \begin{align*}
 I &= [2x]_{0}^{1-\ln 2} + [x]_{1-\ln 2}^{1} + [0]_{1}^{e^3} \\

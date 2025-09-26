@@ -1,6 +1,7 @@
 ## Infinity (Difficulty: Medium)
 
 If the system of linear equations
+
 $$
 \begin{align*}
 3x + y + \beta z &= 3 \\
@@ -22,6 +23,7 @@ For a non-homogeneous system of linear equations to have **infinitely many solut
 2.  The determinants formed by replacing each column with the constant vector ($\Delta_x, \Delta_y, \Delta_z$) must also be zero.
 
 Let's set up the required determinants. The coefficient matrix `A` and the constant vector `B` are:
+
 $$
 A = \begin{vmatrix}
 3 & 1 & \beta \\
@@ -33,6 +35,7 @@ $$
 ### Step 2: Calculate the Determinants
 
 First, we set the determinant of the coefficient matrix to zero ($\Delta = 0$).
+
 $$
 \begin{align*}
 \Delta &= \begin{vmatrix}
@@ -48,6 +51,7 @@ $$
 $$
 
 Next, we set $\Delta_z = 0$. We choose $\Delta_z$ because it will eliminate $\beta$ from the calculation, allowing us to solve for $\alpha$ directly.
+
 $$
 \begin{align*}
 \Delta_z &= \begin{vmatrix}
@@ -66,6 +70,7 @@ $$
 ### Step 3: Solve for $\beta$ and the Final Expression
 
 From the $\Delta_z$ calculation, we have $\alpha = -\frac{19}{9}$. Now, substitute this into equation (1):
+
 $$
 \begin{align*}
 3\left(-\frac{19}{9}\right) + 4\beta - \left(-\frac{19}{9}\right)\beta + 3 &= 0 \\
@@ -82,4 +87,5 @@ Now we can calculate the value of the final expression, $22\beta - 9\alpha$.
 * $9\alpha = -19$
 
 Therefore:
+
 $$22\beta - 9\alpha = 12 - (-19) = 12 + 19 = 31$$

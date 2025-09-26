@@ -47,11 +47,13 @@ $$\frac{n(n+1)}{2(n+n^2)} < P_n < \frac{n(n+1)}{2(1+n^2)}$$
 Next, we take the limit of the outer two sequences as $n \to \infty$. To do this, we can divide the numerator and denominator by the highest power of $n$, which is $n^2$.
 
 * **Limit of the lower bound:**
+
     $$
     \lim_{n \to \infty} \frac{n(n+1)}{2(n+n^2)} = \lim_{n \to \infty} \frac{n^2+n}{2n^2+2n} = \lim_{n \to \infty} \frac{1 + \frac{1}{n}}{2 + \frac{2}{n}} = \frac{1+0}{2+0} = \frac{1}{2}
     $$
 
 * **Limit of the upper bound:**
+
     $$
     \lim_{n \to \infty} \frac{n(n+1)}{2(1+n^2)} = \lim_{n \to \infty} \frac{n^2+n}{2+2n^2} = \lim_{n \to \infty} \frac{1 + \frac{1}{n}}{\frac{2}{n^2} + 2} = \frac{1+0}{0+2} = \frac{1}{2}
     $$
