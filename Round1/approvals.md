@@ -55,3 +55,4 @@
 | 51   | TruncatablePrimes |Ishita  |          |                                                                                                                                                                 |                      |
 | 52   | DoubleBasePalindromes |Ishita  |         |                                                                                                                                                                 |                      |
 | 53   | ModI |Akanksh  | Medium        |                                                                                                                                                                 |                      |
+| 54   |DualDivisibility |Ishita  |        |                                                                                                                                                                 |                      |
