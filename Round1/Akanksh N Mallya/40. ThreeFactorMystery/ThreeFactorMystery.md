@@ -10,6 +10,7 @@ id: 12
 ### Problem  
 Find the probability that a randomly chosen **three-digit number** has exactly **three factors**.
 **Hint** : A number has exactly three factors **iff** it is the **square of a prime number**.  
+Answer in 5 decimal places.
 ---
 
 ### Solution  
@@ -22,16 +23,12 @@ $$
 
 A number has exactly three factors **iff** it is the **square of a prime number**.  
 
-Squares of primes that are three-digit numbers are:  
-
-$$
-11^2, \, 13^2, \, 17^2, \, 19^2, \, 23^2, \, 29^2, \, 31^2
-$$  
+Squares of **11,13,17,19,23,29,31** are 3 digit numbers.
 
 That gives **7 such numbers**.  
 
 Therefore, the required probability is:  
 
 $$
-\frac{7}{900}
+\frac{7}{900} = 0.00777
 $$
