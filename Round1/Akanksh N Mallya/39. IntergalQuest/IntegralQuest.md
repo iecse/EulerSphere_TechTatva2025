@@ -13,9 +13,11 @@ Evaluate:
 $$
 I = \int_{0}^{1/2} \frac{x \sin^{-1} x}{\sqrt{1 - x^2}} \, dx
 $$
+
 $$
 Take \pi = 3.14 and \sqrt{3} = 1.732
 $$
+
 Keep the answer in 3 decimal places
 ---
 
@@ -66,4 +68,5 @@ $$
 I = -\frac{\pi}{6} \cdot \frac{\sqrt{3}}{2} + \frac{1}{2}
 = \frac{6 - \pi \sqrt{3}}{12}
 $$
+
 Answer = 0.047
