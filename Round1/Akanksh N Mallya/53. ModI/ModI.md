@@ -31,8 +31,15 @@ $$7^{103} = 7^{(22 \times 4 + 15)} = (7^{22})^4 \cdot 7^{15}$$
 ### Step 3: Simplify the Problem
 
 Now let's find the remainder.
-$$7^{103} \pmod{23} \equiv ((7^{22})^4 \cdot 7^{15}) \pmod{23}$$Since we know $7^{22} \equiv 1 \pmod{23}$, this becomes:$$\equiv (1^4 \cdot 7^{15}) \pmod{23}$$
+
+$$7^{103} \pmod{23} \equiv ((7^{22})^4 \cdot 7^{15}) \pmod{23}$$
+
+Since we know $7^{22} \equiv 1 \pmod{23}$, this becomes:
+
+$$\equiv (1^4 \cdot 7^{15}) \pmod{23}$$
+
 $$\equiv 7^{15} \pmod{23}$$
+
 The problem is now reduced to finding the remainder of $7^{15}$ divided by 23.
 
 ### Step 4: Calculate the Final Remainder
@@ -43,7 +50,10 @@ We can calculate $7^{15} \pmod{23}$ by breaking it down into smaller, manageable
 * $7^4 = (7^2)^2 \equiv 3^2 \equiv 9 \pmod{23}$
 * $7^8 = (7^4)^2 \equiv 9^2 = 81 \equiv 12 \pmod{23}$ (since $81 = 3 \times 23 + 12$)
 
-Now we can build $7^{15}$ using these parts, since $15 = 8 + 4 + 2 + 1$.
+Now we can build $7^{15}$
+
+using these parts, since $15 = 8 + 4 + 2 + 1$.
+
 $$
 \begin{align*}
 7^{15} &= 7^8 \cdot 7^4 \cdot 7^2 \cdot 7^1 \\
@@ -61,7 +71,7 @@ $$336 = 14 \times 23 + 14$$
 So, the remainder is 14.
 
 $$
-Therefore, $7^{103} \equiv 14 \pmod{23}.
+Therefore, 7^{103} \equiv 14 \pmod{23}.
 $$
 
 Final answer = 14
