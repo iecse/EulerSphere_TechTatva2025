@@ -82,9 +82,11 @@ $$
 
 The determinant is now in a **lower triangular form**. The determinant of a triangular matrix is simply the product of its diagonal elements.
 
-$$\Delta = (a+b+c) \times [1 \times (-(a+b+c)) \times (-(a+b+c))]$$
-$$\Delta = (a+b+c) \times (a+b+c)^2$$ 
-$$\Delta = (a+b+c)^3$$
+$$\begin{aligned}
+\Delta &= (a+b+c) \times [1 \times (-(a+b+c)) \times (-(a+b+c))] \\
+\Delta &= (a+b+c) \times (a+b+c)^2 \\
+\Delta &= (a+b+c)^3
+\end{aligned}$$
 
 The corresponding solutions are presented in the table below:
 
