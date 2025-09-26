@@ -34,6 +34,7 @@ A good first step is to see if adding rows or columns together creates a common 
 * **Third element:** $2a + 2b + (c-a-b) = a+b+c$
 
 This simplifies the determinant to:
+
 $$
 \Delta = \begin{vmatrix}
 a+b+c & a+b+c & a+b+c \\
@@ -61,6 +62,7 @@ Having a row of 1s makes it easy to create zeros, which simplifies the final cal
 2.  $C_3 \to C_3 - C_1$
 
 Applying these operations gives us:
+
 $$
 \Delta = (a+b+c) \begin{vmatrix}
 1 & 1-1 & 1-1 \\
@@ -70,6 +72,7 @@ $$
 $$
 
 This results in the much simpler matrix:
+
 $$
 \Delta = (a+b+c) \begin{vmatrix}
 1 & 0 & 0 \\
