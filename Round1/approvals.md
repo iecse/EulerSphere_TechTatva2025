@@ -98,3 +98,4 @@
 | 47    | Infinity | Akanksh   | Medium         |                                                                                                                                                                 |                      |
 | 48    | GreatLog | Akanksh   | Hard         |                                                                                                                                                                 |                      |
 | 49    | TakeABreak | Akanksh   | Medium         |                                                                                                                                                                 |                      |
+| 50    | DistinctPowerTerm |Arunima   | Medium         |                                                                                                                                                                 |                      |
