@@ -1,0 +1,120 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{array}
+\usepackage{enumitem}
+
+\title{3*3 Magic Digit Grid}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Problem Statement}
+
+We consider a $3 \times 3$ grid where each cell contains a digit $d$ with $0 \leq d \leq 9$.  
+We require that each \textbf{row}, each \textbf{column}, and both \textbf{main diagonals} have the same sum $S$.  
+The task is to determine \textbf{in how many ways} such a grid can be filled.
+
+\section*{Computational Task}
+
+Count the number of distinct $3 \times 3$ matrices with entries from $\{0,1,\dots,9\}$ satisfying:
+\begin{itemize}
+    \item All 3 row sums $= S$
+    \item All 3 column sums $= S$
+    \item Both diagonal sums $= S$
+    \item $S$ is an integer determined by the entries (not fixed in advance)
+\end{itemize}
+
+\section*{Example}
+
+A known magic square with digits (but here digits can repeat and range 0--9):  
+Example (not necessarily with digits $\leq 9$ for illustration of structure):
+\[
+\begin{bmatrix}
+2 & 7 & 6 \\
+9 & 5 & 1 \\
+4 & 3 & 8
+\end{bmatrix}
+\]
+Row sums $= 15$. But here digits $>9$ allowed in general; our case restricts to digits 0--9.
+
+\section*{Solution Approach}
+
+\subsection*{Step 1: Variables and Equations}
+Let the grid be:
+\[
+\begin{bmatrix}
+a & b & c \\
+d & e & f \\
+g & h & i
+\end{bmatrix}
+\]
+Equations:
+\begin{align*}
+& a+b+c = S \quad (1) & d+e+f = S \quad (2) \\
+& g+h+i = S \quad (3) & a+d+g = S \quad (4) \\
+& b+e+h = S \quad (5) & c+f+i = S \quad (6) \\
+& a+e+i = S \quad (7) & c+e+g = S \quad (8)
+\end{align*}
+
+\subsection*{Step 2: Relating Equations}
+From (1)+(2)+(3):  
+Sum of all entries $T = a+b+\dots+i = 3S$.  
+From (4)+(5)+(6): also $T = 3S$.
+
+From (7) and (8): $a+e+i = S$, $c+e+g = S$.
+
+Standard magic square constraints imply center $e = S/3$ and $S = 3e$.
+
+\section*{Mathematical Analysis}
+
+A well-known fact: for a 3×3 magic square with integer entries, the center $e = S/3$ and the sum of any row $S = 3e$.  
+Also, each opposite pair of cells satisfies $a+i = b+h = c+g = d+f = 2e$.
+
+Thus:
+\begin{itemize}
+    \item $S = 3e$
+    \item $e$ must be an integer (since $S$ integer)
+    \item $0 \leq e \leq 9$
+\end{itemize}
+
+Possible $e$ values: $0,1,\dots,9$. For each $e$, $S = 3e$.
+
+\section*{Algorithm}
+
+The general integer 3×3 magic square with center $e$ has the form:
+\[
+\begin{bmatrix}
+e+p & e+q & e-p-q \\
+e-2p-q & e & e+2p+q \\
+e+p+q & e-q & e-p
+\end{bmatrix}
+\]
+where $p,q$ are integers.
+
+Constraints: Each entry between 0 and 9:
+\begin{align*}
+& 0 \leq e+p \leq 9 \\
+& 0 \leq e+q \leq 9 \\
+& 0 \leq e-p-q \leq 9 \\
+& 0 \leq e-2p-q \leq 9 \\
+& 0 \leq e+2p+q \leq 9 \\
+& 0 \leq e+p+q \leq 9 \\
+& 0 \leq e-q \leq 9 \\
+& 0 \leq e-p \leq 9
+\end{align*}
+
+For each $e = 0,\dots,9$, find all integer pairs $(p,q)$ satisfying these inequalities.  
+Count the number of such $(p,q)$.
+
+\section*{Final Answer}
+
+After computation (details omitted here for brevity), the total number of valid grids is:
+
+\[
+\boxed{170}
+\]
+
+\end{document}
