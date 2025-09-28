@@ -66,8 +66,9 @@ $$
 Now,  
 
 $$
-\big|\operatorname{adj}(\operatorname{adj}(3A))\big| = |3A|^{(3-1)^2} = |3A|^4 = (2^3 \cdot 3^3)^4
+|\text{adj}(\text{adj}(3A))| = |3A|^{(3-1)^2} = |3A|^4
 $$
+
 
 
 Since  
@@ -79,8 +80,9 @@ $$
 we get  
 
 $$
-\big|\operatorname{adj}(\operatorname{adj}(3A))\big| = (3^3 \cdot 2^3)^4 = (2^3 \cdot 3^3)^4 = 2^{12} \cdot 3^{12}
+|\text{adj}(\text{adj}(3A))| = (3^3 \cdot 2^3)^4 = (2^3 \cdot 3^3)^4 = 2^{12} \cdot 3^{12}
 $$
+
 
 
 
