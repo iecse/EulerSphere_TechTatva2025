@@ -11,11 +11,11 @@ A = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-If  
+If
 
-$$
+```math
 \det \Big( \operatorname{adj}(\operatorname{adj}(3A)) \Big) = 2^m \cdot 3^n, \quad m, n \in \mathbb{N},
-$$
+```
 
 then find the value of **\( m+n \)**.
 
@@ -56,16 +56,16 @@ $$
 
 Expanding determinant:  
 
-$$
+```math
 |A| = 2 \Big( (16+6p) - (12+6p) \Big) = 2 \cdot 4 = 8 = 2^3
-$$
+```
 
 
 Now,  
 
-$$
+```math
 \big|\operatorname{adj}(\operatorname{adj}(3A))\big| = |3A|^{(3-1)^2} = |3A|^4
-$$
+```
 
 Since  
 
@@ -75,9 +75,9 @@ $$
 
 we get  
 
-$$
+```math
 \big|\operatorname{adj}(\operatorname{adj}(3A))\big| = (3^3 \cdot 2^3)^4 = (2^3 \cdot 3^3)^4 = 2^{12} \cdot 3^{12}
-$$
+```
 
 
 ### Final Answer:
