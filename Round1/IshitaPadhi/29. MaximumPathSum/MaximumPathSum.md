@@ -76,7 +76,7 @@ public class MaximumPathSum {
 ✅ **Output:**
 
 ```
-Maximum Path Sum = 818
+Maximum Path Sum = 746
 ```
 
 ---
