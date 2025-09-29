@@ -1,11 +1,11 @@
 ---
 title: "Smooth Numbers – 50% Version"
-difficulty: "Medium"
+difficulty: "Easy"
 tags: ["math", "digit dp", "number theory", "smooth numbers"]
 id: 8
 ---
 
-# Smooth Numbers (Difficulty: Medium)
+# Smooth Numbers (Difficulty: Easy)
 
 We define a **smooth number** as a positive integer in which the absolute difference between every pair of adjacent digits is at most **1**.
 
