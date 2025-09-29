@@ -9,15 +9,11 @@ Define:
 - \(E\): the **expected number of black balls** in the two draws.  
 
 Let
-$$
-A \;=\; p_1 + p_2 + E.
-$$  
+$A \;=\; p_1 + p_2 + E.$ 
 
 Write \(A\) as a reduced fraction:
 
-$$
-\frac{m}{n}, \quad \gcd(m,n)=1,
-$$
+$\frac{m}{n}, \quad \gcd(m,n)=1,$
 
 and report \(m+n\).
 
@@ -28,12 +24,11 @@ and report \(m+n\).
 
 Let \(C_B\) = event “painted ball originally black,” and \(C_W\) = event “painted ball originally white.”  
 
-Priors:
-$$
+Priors:$
 \Pr(C_B)=\tfrac{6}{10}, 
 \qquad
 \Pr(C_W)=\tfrac{4}{10}.
-$$  
+$  
 
 If the red ball is **not drawn** (event \(R\)), then 9 balls are available for selection:
 
@@ -41,17 +36,17 @@ If the red ball is **not drawn** (event \(R\)), then 9 balls are available for s
 - Under \(C_W\): \(6B+3W\).  
 
 Probability that two draws avoid a specific ball:
-$$
+$
 \Pr(R \mid C_B)=\Pr(R \mid C_W)=\frac{\binom{9}{2}}{\binom{10}{2}}
 =\frac{36}{45}=\tfrac{4}{5}.
-$$  
+$  
 
 Posterior weights remain the same as priors:
-$$
+$
 \Pr(C_B\mid R)=\tfrac{6}{10}, 
 \qquad
 \Pr(C_W\mid R)=\tfrac{4}{10}.
-$$  
+$
 
 Now,  
 - If \(C_B\):  
