@@ -1,4 +1,4 @@
-## Problem: Buckets of Water
+## Problem: Buckets of Water -MEDIUM
 
 (Question Inspiration: https://projecteuler.net/problem=758)
 
@@ -22,8 +22,6 @@ P(13,21) = 34
 For all coprime pairs of positive integers (a, b) with 2 ≤ a < b ≤ 50, find the sum of P(a, b).
 
 Give your answer modulo 1 000 000 007.
-
-give simple code solution. there should be specific single solution
 
 ## Solution
 

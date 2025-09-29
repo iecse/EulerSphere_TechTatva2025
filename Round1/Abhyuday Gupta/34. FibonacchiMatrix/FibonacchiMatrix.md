@@ -14,7 +14,7 @@ Find $F_{20}$ modulo 1000000007.
 - Use matrix exponentiation: $\begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}^n$
 - Can be computed by hand using repeated matrix multiplication or fast exponentiation
 - For verification: $F_{20}$ should be manageable to compute manually
-- Apply modular arithmetic at the final step
+- Apply modular arithmetic at the final ste3p
 
 ## Answer
 
