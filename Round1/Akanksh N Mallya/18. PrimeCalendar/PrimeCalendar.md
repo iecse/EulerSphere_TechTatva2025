@@ -1,11 +1,16 @@
-# Item 1
+---
+title: "PrimeCalendar"
+difficulty: "Medium"
+tags: ["primes", "calendar", "math", "date computation"]
+---
 
-### Question (difficulty: Hard)
+# Prime Calendar (Difficulty: Medium)
 
-Find the largest prime factor of  
+## Problem Statement
 
-$$
-2^{60} - 1
-$$  
+Get the **prime numbers** between **2000 and 2040** and take the **average** of these prime numbers.  
 
-→ Treat this prime factor as a year. Find the total number of Sundays that fall in the first month (January) and the last month (December) of that year.
+---
+
+Treat this average as a **year**.  
+Find the total number of **Sundays** that fall in the **first month (January)** and the **last month (December)** of that year.
