@@ -1,5 +1,5 @@
 # Chinese Remainder Construction
-## Difficulty – Medium
+## Difficulty – Hard
 
 Find the **smallest positive integer** \(N\) such that  
 
