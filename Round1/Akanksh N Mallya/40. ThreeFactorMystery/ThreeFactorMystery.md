@@ -9,7 +9,7 @@ id: 12
 
 ### Problem  
 Find the probability that a randomly chosen **three-digit number** has exactly **three factors**.
-Example : 9 has 3 factors 1 3 and 9.
+Example : 9 has 3 factors 1, 3 and 9.
 ---
 
 ### Solution  
