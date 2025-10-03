@@ -17,5 +17,5 @@ Find the total number of **Sundays** that fall in the **first month (January)** 
 
 ---
 ## Solution
-Average year = 2021
+Average year = 2021, 
 Total Sundays in January and December of 2021 = 9
