@@ -8,7 +8,7 @@ tags: ["primes", "calendar", "math", "date computation"]
 
 ## Problem Statement
 
-Get the **prime numbers** between **2000 and 2040** and take the **average** of these prime numbers.  
+Get the **prime numbers** between **2000 and 2100** and take the **average** of these prime numbers. **Ignore** the decimal values in the average.
 
 ---
 
@@ -17,5 +17,5 @@ Find the total number of **Sundays** that fall in the **first month (January)** 
 
 ---
 ## Solution
-Average year = 2021, 
-Total Sundays in January and December of 2021 = 9
+Average year = 2053, 
+Total Sundays in January and December of 2021 = 8
