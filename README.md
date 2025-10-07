@@ -62,10 +62,3 @@ Shortlisted teams will be provided with datasets and a set of analytical questio
 - [**Navya Lakhotia**](https://github.com/purplenose7)
 
 ---
-
-<div align="center">
-
-**Cryptoss Category | Tech Tatva 2025**  
-Manipal Institute of Technology, Manipal
-
-</div>
