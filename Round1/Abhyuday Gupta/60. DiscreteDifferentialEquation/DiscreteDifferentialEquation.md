@@ -7,7 +7,7 @@ $$y_{n+1} - 2y_n + y_{n-1} = 3^n$$
 
 with initial conditions $y_0 = 1$ and $y_1 = 4$.
 
-Find $y_{15}$ modulo 1000000007.
+Find $y_{10}$.
 
 ### Notes
 
@@ -19,5 +19,5 @@ Find $y_{15}$ modulo 1000000007.
 ### Answer
 
 ```
-10761703
+44302
 ```
