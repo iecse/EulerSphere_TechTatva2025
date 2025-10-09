@@ -58,7 +58,7 @@ Shortlisted teams will be provided with datasets and a set of analytical questio
 
 - [**Ishita Padhi**](https://github.com/IshitaPadhi)
 - **[Abhyuday Gupta](https://github.com/Abhyuday-Gupta912)**
-- **Akanksh Mallya**
+- [**Akanksh Mallya**](https://github.com/Mrman-201)
 - [**Navya Lakhotia**](https://github.com/purplenose7)
 
 ---
