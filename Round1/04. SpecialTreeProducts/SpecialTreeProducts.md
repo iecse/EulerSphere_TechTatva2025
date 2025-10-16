@@ -35,5 +35,5 @@ Find the sum of spectral products S(T) for all labeled trees T on exactly **9** 
 ### Answer:
 
 ```
-39605292
+0
 ```
